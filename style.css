@@ -20,11 +20,8 @@ h1 {
 }
 
 #task-list {
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 25px 0;
-    list-style: none;
 }
 
 li:not(:last-child) {
@@ -35,14 +32,6 @@ li {
     display: grid;
     grid-template-columns: 25px 1fr 25px;
     column-gap: 15px;
-    align-items: center;
-}
-
-.new-task {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    column-gap: 25px;
-    margin: 50px 0;
 }
 
 #input-task {
