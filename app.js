@@ -61,8 +61,8 @@ window.onload = function() {
     }
 }
 
-let r = 0;
-setInterval(function() {
-    r += 1;
-    document.querySelector("body").style.backgroundColor = "rgb(" + r + ",0,0)";
-}, 100)
+// let r = 0;
+// setInterval(function() {
+//     r += 1;
+//     document.querySelector("body").style.backgroundColor = "rgb(" + r + ",0,0)";
+// }, 100)
